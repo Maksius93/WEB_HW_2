@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "web-hw-2"
+version = "0.1.0"
+description = ""
+authors = ["Maksius93 <m.g.fursa@gmail.com>"]
+readme = "README.md"
+#packages = [{include = "web_hw_2"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transliterate = "^1.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
